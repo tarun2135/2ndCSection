@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # Updated file path
-file_path = r"C:\Users\lenovo\Desktop\hii\2ndCSection\Section - C.xlsx"
+file_path = r"Section - C.xlsx"
 df = pd.read_excel(file_path)
 
 # Convert relevant columns to numeric
